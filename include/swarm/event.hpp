@@ -7,7 +7,7 @@ namespace swarm {
 enum class EventType : std::uint8_t {
     TARGET_DETECTED,
     TARGET_DESTROYED,
-    TARGET_LOST,
+    DRONE_LOST,
     TICK
 };
 
